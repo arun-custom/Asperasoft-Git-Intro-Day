@@ -1,0 +1,133 @@
+# Git Introduction
+
+## Setup
+- To get setup let's install Git.
+
+## Starting a New Git Repository
+- New Git repositories begin by initializing Git in a specific directory.
+- This creates a .git file that has information and files to handle the version control process.
+- This is normally done when you want to begin adding a project to version control.
+
+```
+git init
+```
+
+## Adding Files to Staging Area
+- When you want to add a file to version control through Git you need to "stage" it first.
+
+Add specific file:
+
+```
+git add "test.txt"
+```
+
+Add all files of a certain type:
+
+```
+git add "*.txt"
+```
+
+Add all files and directories
+
+```
+git add -A
+```
+
+## Committing Files
+- When you are ready to commit your changes to version control, you perform a Git Commit.
+- Commits are only local to your computer, but can be pushed up to a remote server.
+
+```
+git commit -m "Newest changes"
+```
+
+## Checking Commit History
+- After commits are performed you can get a log of recent commits.
+
+```
+git log
+```
+
+## Diff'ing Commits
+- Diff'ing in a way you can examine the differences between files either that have been committed or staged.
+- You can take the current state of the repository and compare it to a certain commit or compare it to the HEAD.
+
+Compare current state to HEAD:
+
+```
+git diff HEAD
+```
+
+Compare staged files to current repository:
+
+```
+git diff --staged
+```
+
+## Git Lab 1
+- In this lab we will practice the features of Git we have learned so far.
+- Here are the steps you will need to follow:
+	- Step 1: Create a new folder with a single file.
+	- Step 2: Initialize a new Git repository.
+	- Step 3: Stage the new file.
+	- Step 4: Before committing, check the diff on the new file against the current repository status.
+	- Step 5: Commit the file.
+	- Step 6: Create a new file, stage it and commit it.
+	- Step 7: Check the Git log to see the commit.
+
+## Adding a Remote Repository
+- In order to push your changes to a remote repository, you will need to use a server that implements Git over HTTP.
+- One of the most common remote repository services is [GitHub](https://github.com).
+- We will look at how to create a new repository through GitHub and push our existing project.
+
+## Git Lab 2
+- In this lab you will be pushing your project you created in step 1 to GitHub.
+
+## Stashing Changes
+- There are some circumstances when you start working on a few files and want to them switch to another branch without creating a new commit.
+- Normally, in order to switch to a new branch, the current branch needs to be "clean."
+- One option is to stash your changes and come back to them later.
+
+```
+git stash
+```
+
+- If you need to review your stashed changes you can use this command:
+
+```
+git stash list
+```
+
+- When you want to reapply your changes you can perform an "apply."
+- The below example will apply the most recent stash.
+
+```
+git stash apply
+```
+
+- You can also apply another stash by name.
+
+```
+git stash apply stash@{2}
+```
+
+- If you also want to restage any files that were previously staged before the stash, you can use the --index option.
+
+```
+git stash apply --index
+```
+
+- If you need to remove an applied stash you can use the drop command.
+
+```
+git stash drop stash@{2}
+```
+
+- If you continue work on the current branch from which you stashed your changes, you may run into trouble when trying to reapply.
+- The best option here is to create a branch from the stashed work and merge it into your main branch.
+
+```
+git stash branch change_branch
+```
+
+## Git Lab 3

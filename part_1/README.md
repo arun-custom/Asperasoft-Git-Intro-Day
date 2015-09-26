@@ -131,3 +131,12 @@ git stash branch change_branch
 ```
 
 ## Git Lab 3
+- In this lab we will practice stashing with the other principles.
+- Here are the steps you will need to follow:
+	- Step 1: Create two new files in your project from lab part 2.
+	- Step 2: Before committing, stash your changes for both files.
+	- Step 3: Reapply your changes.
+	- Step 4: Create a new file and stash it.
+	- Step 5: Make a change to the current branch by adding a new file.
+	- Step 6: Create a new branch from the stashed changes.
+	- Step 7: Push your changes to GitHub.

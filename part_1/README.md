@@ -33,6 +33,13 @@ Add all files and directories
 git add -A
 ```
 
+## Checking Status
+- To view repository status, including your staged changes, you can use this command:
+
+```
+git status
+```
+
 ## Committing Files
 - When you are ready to commit your changes to version control, you perform a Git Commit.
 - Commits are only local to your computer, but can be pushed up to a remote server.

@@ -140,3 +140,48 @@ git stash branch change_branch
 	- Step 5: Make a change to the current branch by adding a new file.
 	- Step 6: Create a new branch from the stashed changes.
 	- Step 7: Push your changes to GitHub.
+
+## Reverting Commits
+- There definitely comes a time when you need to remove an entire commit from your project history.
+- Reverting a commit undoes a single commit based on the hash signature. It does not revert back to the previous state of a project by removing all subsequent commits.
+- Creating a reversion takes out an older commit, undoes the changes, and creates a new commit to make the alteration.
+
+Revert the HEAD:
+
+```
+git revert HEAD
+```
+
+Revert a specific commit based on its hash:
+
+```
+git revert 70460b4b4aece5915caf5c68d12f560a9fe3e4
+```
+
+## Resetting Your Repository
+- Reverting changes allows you to create a new commit that undoes changes from an old commit. Reset allows you to undo changes in the staging area and local directory.
+- There are three main ways you use reset:
+
+##### Resetting a file: Removes the file from staging, but leaves the working directory unchanged.
+
+```
+git reset test.txt
+```
+
+##### General reset: Resets the staging area to match the most recent commit and leaves the working directory unchanged.
+
+```
+git reset
+```
+
+##### Commit reset: Resets the project tip to the commit you specify and leaves the working directory unchanged.
+
+```
+git reset 70460b4b4aece5915caf5c68d12f560a9fe3e4
+```
+
+- You can optionally choose to alter the current working directory as well by specifying the --hard flag.
+
+```
+git reset --hard
+```

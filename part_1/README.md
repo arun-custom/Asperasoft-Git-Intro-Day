@@ -227,7 +227,7 @@ git reset --hard
 - Here are the steps you will need to follow:
 	- Step 1: Perform a `git clone` of this notes repository.
 	- Step 2: Find the folder you just cloned and cd in to it. 
-	- Step 3: Go in to style.css and make a change of your choice. 
+	- Step 3: Create a new file anywhere.
 	- Step 4: Stage the changes you made.
 	- Step 5: View the respository status.
 	- Step 6: Commit your changes.

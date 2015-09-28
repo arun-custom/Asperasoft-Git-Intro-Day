@@ -210,7 +210,7 @@ git reset 70460b4b4aece5915caf5c68d12f560a9fe3e4
 git reset --hard
 ```
 
-##Git Lab 4
+## Git Lab 4
 - In this lab we will practice reverting and resetting.
 - Turn to your partner and discuss the difference between reverting and resetting, give an example of when you would use one over the other.  
 - Here are the steps you will need to follow:
@@ -219,7 +219,7 @@ git reset --hard
 	- Step 3: Stage a few changes of your choice and reset your working directory.
 	- Step 4: Turn to your partner and discuss what step 3's reset just accomplished. 
 
-##Git Lab 5
+## Git Lab 5
 - In this lab we will be combining several of the principles we learned and you will be asked to research some concepts on your own. 
 - Here are the steps you will need to follow:
 	- Step 1: Perform a `git clone` of this notes repository.

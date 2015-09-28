@@ -96,7 +96,7 @@ git diff --staged
 
 ## Adding a Remote Repository
 - In order to push your changes to a remote repository, you will need to use a server that implements Git over HTTP.
-- One of the most common remote repository services is [GitLab](https://gitlab.emboldenmedia.net).
+- One of the most common remote repository services is [GitLab](http://gitlab.emboldenmedia.net).
 - We will look at how to create a new repository through GitLab and push our existing project.
 
 [Documentation for git remote](http://git-scm.com/docs/git-remote)

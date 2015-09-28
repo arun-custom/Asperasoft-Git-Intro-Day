@@ -14,6 +14,15 @@
 git init
 ```
 
+## Checking Status
+- To view repository status, including your staged changes, you can use this command:
+
+[Documentation for git status](http://git-scm.com/docs/git-status)
+
+```
+git status
+```
+
 ## Adding Files to Staging Area
 - When you want to add a file to version control through Git you need to "stage" it first.
 
@@ -35,15 +44,6 @@ Add all files and directories
 
 ```
 git add -A
-```
-
-## Checking Status
-- To view repository status, including your staged changes, you can use this command:
-
-[Documentation for git status](http://git-scm.com/docs/git-status)
-
-```
-git status
 ```
 
 ## Committing Files

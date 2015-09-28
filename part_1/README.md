@@ -96,13 +96,13 @@ git diff --staged
 
 ## Adding a Remote Repository
 - In order to push your changes to a remote repository, you will need to use a server that implements Git over HTTP.
-- One of the most common remote repository services is [GitHub](https://github.com).
-- We will look at how to create a new repository through GitHub and push our existing project.
+- One of the most common remote repository services is [GitLab](https://gitlab.emboldenmedia.net).
+- We will look at how to create a new repository through GitLab and push our existing project.
 
 [Documentation for git remote](http://git-scm.com/docs/git-remote)
 
 ## Git Lab 2
-- In this lab you will be pushing your project you created in step 1 to GitHub.
+- In this lab you will be pushing your project you created in step 1 to GitLab.
 
 ## Stashing Changes
 - There are some circumstances when you start working on a few files and want to them switch to another branch without creating a new commit.
@@ -158,11 +158,8 @@ git stash branch change_branch
 - Here are the steps you will need to follow:
 	- Step 1: Create two new files in your project from lab part 2.
 	- Step 2: Before committing, stash your changes for both files.
-	- Step 3: Reapply your changes.
-	- Step 4: Create a new file and stash it.
-	- Step 5: Make a change to the current branch by adding a new file.
-	- Step 6: Create a new branch from the stashed changes.
-	- Step 7: Push your changes to GitHub.
+	- Step 3: Reapply your changes from the stash.
+	- Step 4: Push your changes to GitLab.
 
 ## Reverting Commits
 - There definitely comes a time when you need to remove an entire commit from your project history.

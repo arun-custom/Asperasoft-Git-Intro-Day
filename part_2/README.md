@@ -120,7 +120,7 @@ Inserting a line
 	- Step 3: Push your changes to GitLab.
 	- Step 4: Add your partner's username as a member of your project.
 	- Step 5: Have your partner clone the project, make a change, and commit the result.
-	- Step 6: Change the same line locally as your partner.
+	- Step 6: Change the same line locally as your partner and commit the result.
 	- Step 7: Perform a pull operation - `git pull origin master`
 	- Step 8: Fix the conflict and commit and push the result.
 	- Step 9: Repeat steps 2 - 9 with a new file so your partner can try fixing the conflict as well.

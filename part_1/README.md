@@ -217,17 +217,4 @@ git reset --hard
 	- Step 1: Find the hash for the last commit you made in lab 3. 
 	- Step 2: Revert that specific commit. 
 	- Step 3: Stage a few changes of your choice and reset your working directory.
-	- Step 4: Turn to your partner and discuss what step 3's reset just accomplished. 
-
-## Git Lab 5
-- In this lab we will be combining several of the principles we learned and you will be asked to research some concepts on your own. 
-- Here are the steps you will need to follow:
-	- Step 1: Perform a `git clone` of this notes repository.
-	- Step 2: Find the folder you just cloned and cd in to it. 
-	- Step 3: Create a new file anywhere.
-	- Step 4: Stage the changes you made.
-	- Step 5: View the respository status.
-	- Step 6: Commit your changes.
-	- Step 7: Get a log of this commit.
-	- Step 8: Add a remote that points to a new repository you set up in your account.
-	- Step 9: Push the repo with your changes to this new repository.
+	- Step 4: Turn to your partner and discuss what step 3's reset just accomplished.

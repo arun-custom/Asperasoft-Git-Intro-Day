@@ -7,10 +7,10 @@
 	- Step 2: Find the folder you just cloned and cd in to it. 
 	- Step 3: Create a new file anywhere.
 	- Step 4: Stage the changes you made.
-	- Step 5: View the respository status.
+	- Step 5: View the repository status.
 	- Step 6: Commit your changes.
 	- Step 7: Get a log of this commit.
-	- Step 8: Add a remote that points to a new repository you set up in your account.
+	- Step 8: Add a remote that points to a new repository you set up in your GitLab account.
 	- Step 9: Push the repo with your changes to this new repository.
 
 ## Creating a Branch

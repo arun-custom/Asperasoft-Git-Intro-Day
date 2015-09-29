@@ -60,6 +60,7 @@ git merge feature_branch
 	- Step 6: Merge development into test.
 	- Step 7: Make a change in test and merge into master.
 	- Step 8: Update development to reflect the new changes.
+	- Step 9: Push your repository to GitLab.
 
 ## Delete a Branch
 

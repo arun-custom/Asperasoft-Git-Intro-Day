@@ -64,8 +64,16 @@ git merge feature_branch
 
 ## Delete a Branch
 
+Local:
+
 ```
 git branch -d test_branch
+```
+
+Remote:
+
+```
+git push origin :test_branch
 ```
 
 ## Removing Items from Branch
